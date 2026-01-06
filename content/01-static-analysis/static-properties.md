@@ -1,6 +1,94 @@
+## Malware Behavior and Detection Concepts
 
-Mutant - unique flag that helps malware understand if the device is already infected to not reinfect it again
-Beaconing - sending basic info abt system to attacker
-C2 - obtaining instructions from adversary 
-Exfiltration - sending stolen data to adversary
-IOC - indicators of compromise - infection indicators like signatures, traffic
+### Mutant (Mutex)
+
+A unique identifier or flag that malware uses to determine if a system is already infected. This prevents the malware from reinfecting the same device multiple times, which could:
+
+    Create detection anomalies from duplicate processes
+    Consume excessive system resources
+    Cause conflicts between multiple instances
+    Alert the user to suspicious activity
+
+Common implementations include named mutexes, registry keys, or specific file markers. Analysts can use these mutants as fingerprints to identify specific malware families.
+Beaconing
+
+The process of malware sending basic information about the infected system back to the attacker. This initial communication typically includes:
+
+    System hostname and username
+    Operating system version and architecture
+    IP address and network configuration
+    Installed security software
+    Privilege level of the malware process
+    Timestamp of infection
+
+### Beaconing
+usually occurs on a regular interval and 
+helps attackers inventory their compromised systems and prioritize targets.
+
+### Command and Control (C2)
+
+The mechanism by which malware receives instructions from the adversary. After the initial beacon, the malware establishes a persistent connection to receive commands such as:
+
+    Download and execute additional payloads
+    Modify configuration or persistence mechanisms
+    Terminate processes or delete files
+    Escalate privileges
+    Lateral movement instructions
+    Data collection and exfiltration commands
+
+C2 infrastructure can use various protocols (HTTP/HTTPS, DNS, custom protocols) and may employ domain generation algorithms (DGAs) or encrypted channels to evade detection.
+
+### Exfiltration
+
+The process of sending stolen data from the compromised system to the adversary. This is often the ultimate goal of the attack and may include:
+
+    Credentials and authentication tokens
+    Intellectual property and documents
+    Database contents
+    Email archives
+    Browser history and saved passwords
+    Encryption keys
+
+Exfiltration can occur in chunks over time to avoid triggering data loss prevention (DLP) systems or network monitoring alerts.
+
+### Indicators of Compromise (IOCs)
+
+Observable artifacts that suggest a system may be compromised. IOCs serve as forensic evidence and detection signatures, including:
+
+File-based IOCs:
+
+    MD5, SHA-1, SHA-256 hashes
+    File names and paths
+    File sizes and timestamps
+    PE header characteristics
+
+Network-based IOCs:
+
+    IP addresses and domains (C2 servers)
+    URLs and URI patterns
+    User-agent strings
+    Network traffic patterns and packet signatures
+    Port numbers and protocols
+
+Host-based IOCs:
+
+    Registry key modifications
+    Mutexes and named pipes
+    Service names
+    Scheduled tasks
+    Process names and command-line arguments
+
+Behavioral IOCs:
+
+    Beaconing intervals
+    Unusual outbound connections
+    Privilege escalation attempts
+    Lateral movement patterns
+
+IOCs are critical for threat intelligence sharing, SIEM correlation rules, and building detection signatures for security tools.
+Related Concepts
+
+    [[Malware Analysis Techniques]]
+    [[Network Traffic Analysis]]
+    [[Incident Response]]
+    [[Threat Hunting]]
