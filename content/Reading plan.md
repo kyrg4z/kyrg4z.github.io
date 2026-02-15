@@ -1,6 +1,6 @@
 I found these papers interesting and intend to read them soon 
 
- 1. [**Smashing the Stack for Fun and Profit**](http://www.phrack.org/phrack/49/P49-14)
+ 1. [**Smashing the Stack for Fun and Profit**](https://inst.eecs.berkeley.edu/~cs161/fa08/papers/stack_smashing.pdf)
 The foundational paper that started modern binary exploitation. Understanding this is essential for everything that follows.
 
 2. [**Security Problems in the TCP/IP Protocol Suite**](https://www1.cs.columbia.edu/~smb/papers/ipext.pdf)
