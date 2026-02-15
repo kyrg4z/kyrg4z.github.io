@@ -8,12 +8,13 @@ import * as Plugin from "./quartz/plugins"
  */
 const config: QuartzConfig = {
   configuration: {
-    pageTitle: "Quartz 4",
+    pageTitle: "Artur's vault",
     pageTitleSuffix: "",
     enableSPA: true,
     enablePopovers: true,
     analytics: {
-      provider: "plausible",
+      provider: 'goatcounter', 
+      websiteId: 'kyrg4z' 
     },
     locale: "en-US",
     baseUrl: "kyrg4z.github.io",
