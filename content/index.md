@@ -11,22 +11,27 @@ I enjoy understanding how systems work internally from kernel level.
 - **Reverse Engineering**  
   x86 / ARM binaries · malware analysis · static & dynamic analysis  
 
-- **Exploitation (Pwn)**  
-  memory corruption · ROP fundamentals · intro kernel concepts  
-
 - **Network Security**  
   protocol behavior · traffic inspection · packet sniffing  
-## Focus
+
+- **Computer Engineering**
+  hardware · signals · radars
+## Interests 
 
 - reverse engineering & malware analysis  
 - C + low-level systems  
-- debugging, tooling, breakpoints  
+- network security 
+- PCB design & hardware (signals, radars)
+- Cool physics for radio signals & networking 
 - capstone + yearly projects
 
 ##  Goals for this notebook 
-1. Master RE & malware analysis 
+1. Master 
+	- [ ] RE & malware analysis
+	- [ ] Network Security 
+	- [ ] Hardware & PCB design 
 2. Document the key information here 
-3. Make something really cool 
+3. Make 
 
 ## Tooling
 You're likely going to find these tools used in here
@@ -45,6 +50,7 @@ You're likely going to find these tools used in here
   <img src="https://img.shields.io/badge/Go-00ADD8?style=for-the-badge&logo=go&logoColor=white" />
   <img src="https://img.shields.io/badge/C-A8B9CC?style=for-the-badge&logo=c&logoColor=white" />
   <img src="https://img.shields.io/badge/Assembly-525252?style=for-the-badge&logo=asm&logoColor=white" />
+  <img src="https://img.shields.io/badge/KiCad-111111??style=for-the-badge&logo=asm&logoColor=white" />
 </p>
 
 ## Navigation 
