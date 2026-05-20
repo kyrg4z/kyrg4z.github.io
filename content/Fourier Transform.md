@@ -1,3 +1,7 @@
+---
+title: Fourier Transform
+---
+
 
 ![[fourier.png]]
 ### 1\. The Time Domain (The Input)
