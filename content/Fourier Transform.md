@@ -1,5 +1,6 @@
 ---
 title: Fourier Transform
+draft: "false"
 ---
 
 
