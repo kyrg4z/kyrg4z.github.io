@@ -1,3 +1,7 @@
+---
+title: UoFT CTF resources
+draft: "false"
+---
 
 
 ## Presentations by Yoshixi 

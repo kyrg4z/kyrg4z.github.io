@@ -14,7 +14,7 @@ I enjoy understanding how systems work internally from kernel level.
 - **Network Security**  
   protocol behavior · traffic inspection · packet sniffing  
 
-- **Computer Engineering**
+- **Computer Engineering**  
   hardware · signals · radars
 ## Interests 
 
