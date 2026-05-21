@@ -1,5 +1,5 @@
 ---
-title: UoFT CTF resources
+title: UoFT CTF club slides
 draft: "false"
 ---
 
