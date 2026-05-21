@@ -1,9 +1,9 @@
----
-title: UoFT CTF club slides
-draft: "false"
----
 
 
+## Presentations by Yoshixi 
+credit: https://uoftctf.org/
+
+I found those very interesting and pretty useful 
 
 [uoftctf binary exploitation - Presentation](https://www.canva.com/design/DAG5Ylk_w88/j6GSDDxJhIOWH48w_BYA8Q/edit)
 [uoftctf reverseing - Presentation](https://www.canva.com/design/DAGwdA0-B20/RGv9zc3J8IHo_m8XHeTAOQ/edit)
