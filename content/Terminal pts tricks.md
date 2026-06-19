@@ -1,3 +1,7 @@
+---
+title: Terminal pts tricks
+draft: "false"
+---
 ```
 echo "hello" >> /dev/pts/1 
 ```
