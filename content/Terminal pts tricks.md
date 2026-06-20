@@ -2,7 +2,7 @@
 title: Terminal pts tricks
 draft: "false"
 ---
-```
+```bash
 echo "hello" >> /dev/pts/1 
 ```
 
@@ -12,6 +12,7 @@ echo "hello" >> /dev/pts/1
 In unix system every terminal is represented by a special file under /dev/pts. 
 So you can just pipe text into it and it will be printed 
 
-![[Pasted image 20260619183219.png]]
+
+![[pts.png]]
 
 
