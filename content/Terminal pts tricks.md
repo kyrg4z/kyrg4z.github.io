@@ -12,4 +12,4 @@ echo "hello" >> /dev/pts/1
 In unix system every terminal is represented by a special file under /dev/pts. 
 So you can just pipe text into it and it will be printed 
 
-![[pts.png]]
+![[pts1.png]]
