@@ -10,7 +10,7 @@ private/
 .replit
 replit.nix
 docs
-
+.trash
 
 
 # Ignore Smart Environment folder
